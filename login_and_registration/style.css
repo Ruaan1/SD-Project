@@ -86,7 +86,7 @@ input::placeholder{
     text-decoration: underline;
 }
 
-ion-icon{
+.input-box ion-icon{
     color: white;
     position: absolute;
     top: 13px;
@@ -101,4 +101,58 @@ ion-icon{
     font-weight: 600;
     top: 25px;
     visibility: hidden;
+}
+
+.popup{
+    width: 400px;
+    background-color: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition:top .4s;
+    visibility: hidden;
+    text-align: center;
+    padding: 0 30px 30px;
+    height: 330px;
+    color: black;
+}
+
+.popup ion-icon{
+    color: greenyellow;
+    font-size: 50px;
+}
+
+.popup button{
+    width: 100%;
+    background: greenyellow;
+    padding: 10px 0;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow:0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.popup a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.open-slide{
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    visibility: visible;
+}
+
+.popup h2{
+    font-weight: 500;
+    font-size: 40px;
+    margin: 30px 0 10px;
 }
