@@ -86,3 +86,19 @@ input::placeholder{
     text-decoration: underline;
 }
 
+ion-icon{
+    color: white;
+    position: absolute;
+    top: 13px;
+    right: 0;
+    width: 20px;
+    height: 25px;
+}
+
+#result{
+    position: relative;
+    color: red;
+    font-weight: 600;
+    top: 25px;
+    visibility: hidden;
+}
